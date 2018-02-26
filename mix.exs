@@ -31,13 +31,13 @@ defmodule UeberauthIdentity.Mixfile do
       # dev/test dependencies
       {:credo, "~> 0.5", only: [:dev, :test]},
       {:dogma, ">= 0.0.0", only: [:dev, :test]},
-      {:earmark, "~> 0.1", only: :dev},
+      {:earmark, "~> 1.0", only: :dev},
       {:ex_doc, "~> 0.1", only: :dev},
     ]
   end
 
   defp docs do
-    [extras: docs_extras(), main: "extra-readme"]
+    [extras: docs_extras(), main: "readme"]
   end
 
   defp docs_extras do
